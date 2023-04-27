@@ -7,7 +7,7 @@ var choices = ["R", "S", "P"];
 
 window.onload = function() {
     for (let i = 0; i < 3; i++) {
-        // <img id="r" src="R.png">
+        // <img id="r" src="assets/images/r.png">
         let choice = document.createElement("img");
         choice.id = choices[i];
         choice.src = choices[i] + ".png";
