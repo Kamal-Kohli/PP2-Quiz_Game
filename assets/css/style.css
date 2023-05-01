@@ -21,6 +21,16 @@ body {
     border-radius: 5px;
 }
 
+.custom-box::before,
+.custom-box::after{
+    display: table;
+    clear: both;
+    content: '';
+}
+
+.custom-box.hide {
+    display: none;
+}
 .home-box h3{
     font-size: 18px;
     color: black;
@@ -53,5 +63,64 @@ body {
     background-color: cornflowerblue;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
     cursor: pointer;
+}
+
+.quiz-box .question-number,
+.quiz-box .question-text,
+.quiz-box .option-container,
+.quiz-box .next-question-btn,
+.quiz-box .answers-indicator{
+    width: 100%;
+    float: left;
+}
+
+.quiz-box .question-number{
+    font-size: 18px;
+    font-weight: 600;
+    color: cornflowerblue;
+    border-bottom: 1px solid #cccc;
+    padding-bottom: 10px;
+    line-height: 25px;
+
+}
+
+.quiz-box .question-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    padding: 20px 0;
+    margin: 0;
+    line-height: 25px;
+}
+
+.quiz-box .option-container .option{
+    background-color: #cccc;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.quiz-box .btn{
+    margin: 15px 0;
+}
+
+.quiz-box .answers-indicator{
+    border-top: 1px solid #cccc;
+}
+
+.quiz-box .answers-indicator div{
+    background-color: #cccc;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-right: 5px;
+    margin-top: 15px;
+    display: inline-block;
 }
