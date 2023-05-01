@@ -124,3 +124,36 @@ body {
     margin-top: 15px;
     display: inline-block;
 }
+
+.result-box {
+    text-align: center;
+}
+
+.result-box.hide {
+    display: none;
+}
+.result-box h1{
+    font-size: 35px;
+    color: cornflowerblue;
+    line-height: 40px;
+}
+
+.result-box table{
+    width: 100%;
+    margin: 30px 0;
+    border-collapse: collapse;
+}
+
+.result-box table td{
+    border: 1px solid #cccc;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    text-align: left;
+    padding: 8px 15px;
+    width: 50%;
+}
+
+.result-box .btn{
+    margin-right: 20px;
+}
