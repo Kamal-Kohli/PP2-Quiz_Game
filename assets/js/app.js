@@ -22,7 +22,7 @@ function getNewQuestion(){
 
 
     // Question and Set random question
-    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)]
+    const questionIndex = availableQuestions[Math.floor(Math.random() * availableQuestions.length)];
     currentQuestion = questionIndex;
     questionText.innerHTML = currentQuestion.q;
 
@@ -37,12 +37,24 @@ function getNewQuestion(){
         availableOptions.push(i)
     }
 
+    let animationDelay = 0.2;
+    // Create optiond in HTML
     for(let i=0; i<optionLen; i++){
+        //random otions
+        const optionIndex = availableOptions[Math.floor(Math.random() * availableOptions.length)];
+        
+        const index2 = availableOptions.indexOf(optionIndex);
+        
+        availableOptions.splice(index2,1);
+    
         const option = document.createElement("div");
-        option.innerHTML = currentQuestion.options[i];
-        option.id = i;
+        option.innerHTML = currentQuestion.options[optionIndex ];
+        option.id = optionIndex;
+        option.style.animationDelay =animationDelay + 's';
+        animationDelay = animationDelay = 0.15;
         option.className = "option";
         optionContainer.appendChild(option)
+        option.setAttribute("oneclick","getResult(this)");
     }
 
     questionCounter++
@@ -50,7 +62,7 @@ function getNewQuestion(){
 
 function next(){
     if(questionCounter === quiz.length){
-        console.log("quiz over")
+        console.log("quiz over");
     } 
     else{
         getNewQuestion();
