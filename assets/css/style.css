@@ -41,6 +41,10 @@ body {
     font-weight: 500;
 }
 
+.home-box .btn{
+    margin-top: 30px;
+}
+
 .btn{
     padding: 15px 45px;
     border: none;
