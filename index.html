@@ -5,19 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>R-S-P</title>
+    <title>Quiz</title>
 </head>
 <body>
-    <div class="home-box custom-box hide">
+    <div class="home-box custom-box">
         <h3>Instructions:</h3>
         <p>1. Rock beats scissors, scissors beat paper, and paper beats rock.
         </p>
         <p>2. You will compeat with Computer.</p>
         <p>3. Whoever gets 10 points first wins.</p>
         <p>Total number of questions:<span class="total-question">5</span></p>
-        <button class="btn" type="button"> Start Quiz</button>
+        <button class="btn" type="button" onclick="startQuiz()"> Start Quiz</button>
     </div>
-    <div class="quiz-box custom-box">
+    <div class="quiz-box custom-box hide">
         <div class="question-number">
            
         </div>
@@ -28,7 +28,7 @@
     
         </div>
         <div class="next-question-btn">
-            <button class="btn" type="button" click="next()">Next</button>
+            <button class="btn" type="button" onclick="next()">Next</button>
         </div>
         <div class="answers-indicator">
             
@@ -39,27 +39,27 @@
         <table>
             <tr>
                 <td>Total Questions</td>
-                <td><span class="total-question">5</span></td>
+                <td><span class="total-question"></span></td>
             </tr>
             <tr>
                 <td>Attempt</td>
-                <td><span class="total-attempt">4</span></td>
+                <td><span class="total-attempt"></span></td>
             </tr>
             <tr>
                 <td>Correct</td>
-                <td><span class="total-correct">3</span></td>
+                <td><span class="total-correct"></span></td>
             </tr>
             <tr>
                 <td>Wrong</td>
-                <td><span class="total-wrong">2</span></td>
+                <td><span class="total-wrong"></span></td>
             </tr>
             <tr>
                 <td>Percentage</td>
-                <td><span class="percentage">60.00%</span></td>
+                <td><span class="percentage"></span></td>
             </tr>
             <tr>
                 <td>Total Score</td>
-                <td><span class="total-score">3 / 5</span></td>
+                <td><span class="total-score"></span></td>
             </tr>
         </table>
         <button class="btn" onclick="tryAgainQuiz()" type="button">Try Again</button>

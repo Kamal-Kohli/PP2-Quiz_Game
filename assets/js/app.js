@@ -57,19 +57,19 @@ function getNewQuestion(){
         // Remove the optionIndex from the availableOptions.
         availableOptions.splice(index2,1);
         const option = document.createElement("div");
-        option.innerHTML = currentQuestion.options[optionIndex ];
+        option.innerHTML = currentQuestion.options[optionIndex];
         option.id = optionIndex;
         option.style.animationDelay =animationDelay + 's';
         animationDelay = animationDelay = 0.15;
         option.className = "option";
         optionContainer.appendChild(option)
-        option.setAttribute("oneclick","getResult(this)");
+        option.setAttribute("onclick","getResult(this)"); 
     }
 
     questionCounter++
 }
 
-// Get Result
+// Get Result of attempt question
 function getResult(element){
     const id = parseInt(element.id);
     if(id === currentQuestion.answer){
@@ -78,7 +78,9 @@ function getResult(element){
         correctAnswers++;
     }
     else{
+        // Indicate wrong mark
         element.classList.add("wrong");
+        updateAnswerIndicator("wrong");
 
         const optionLen = optionContainer.children.length;
         for(let i=0; i<optionLen; i++){
@@ -87,10 +89,11 @@ function getResult(element){
             }
         }
     }
-   
+    attempt++;
     unclickableOptions();
 }
 
+// Make all th eoptions unclickable once the user select a option.
 function unclickableOptions(){
     const optionLen = optionContainer.children.length;
     for(let i=0; i<optionLen; i++){
@@ -98,9 +101,21 @@ function unclickableOptions(){
     }
 }
 
+function answersIndicator(){
+    answersIndicatorContainer.innerHTML = '';
+    const totalQuestion = quiz.length;
+    for(let i=0; i<totalQuestion; i++){
+        const indicator = document.createElement("div");
+        answersIndicatorContainer.appendChild(indicator);
+    }
+}
+
+function updateAnswerIndicator(markType){
+    answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
+}
+
 function next(){
     if(questionCounter === quiz.length){
-        console.log("quiz over");
         quizOver();
     } 
     else{
