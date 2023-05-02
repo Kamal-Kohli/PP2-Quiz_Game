@@ -90,11 +90,28 @@ function unclickableOptions(){
 function next(){
     if(questionCounter === quiz.length){
         console.log("quiz over");
+        quizOver();
     } 
     else{
         getNewQuestion();
     }
 }
+
+function quizOver(){
+    quizBox.classList.add("hide");
+    resultBox.classList.remove("hide");
+    quizResult();
+}
+
+function quizResult(){
+    resultBox.querySelector(".total-question").innerHTML = quiz.length;
+    resultBox.querySelector(".total-attempt").innerHTML = attempt;
+    resultBox.querySelector(".total-correct").innerHTML = correctAnswers;
+    resultBox.querySelector(".total-wrong").innerHTML = attempt - correctAnswers;
+    const percentage = (correctAnswers/quiz.length)*100;
+    resultBox.querySelector(".percentage").innerHTML =percentage.toFixed() + "%";
+    resultBox.querySelector(".total-score").innerHTML =correctAnswers +" / " + quiz.length;
+} 
 
 window.onload = function(){
 
