@@ -60,6 +60,33 @@ function getNewQuestion(){
     questionCounter++
 }
 
+// Get Result
+function getResult(element){
+    const id = parseInt(element.id);
+    if(id === currentQuestion.answer){
+        element.classList.add("correct");
+    }
+    else{
+        element.classList.add("wrong");
+
+        const optionLen = optionContainer.children.length;
+        for(let i=0; i<optionLen; i++){
+            if(parseInt(optionContainer.children[i].id) === currentQuestion.answer){
+                optionContainer.children[i].classList.add("correct");
+            }
+        }
+    }
+   
+    unclickableOptions();
+}
+
+function unclickableOptions(){
+    const optionLen = optionContainer.children.length;
+    for(let i=0; i<optionLen; i++){
+        optionContainer.children[i].classList.add("already-answered");
+    }
+}
+
 function next(){
     if(questionCounter === quiz.length){
         console.log("quiz over");
