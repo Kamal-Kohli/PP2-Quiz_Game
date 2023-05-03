@@ -12,7 +12,7 @@ const quiz = [
     },
     {
         q:'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
-        options:['if (i <> 5)','(i != 5)','Tif i =! 5 then','if i <> 5'],
+        options:['if (i <> 5)','if (i != 5)','if i =! 5 then','if i <> 5'],
         answer: 1
     },
     {
