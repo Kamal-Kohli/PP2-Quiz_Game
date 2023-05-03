@@ -11,18 +11,43 @@ const quiz = [
         answer: 0
     },
     {
-        q:'Where is the correct place to insert a JavaScript?',
-        options:['The <body> section','Both the <head> section and the <body> section are correct','The <head> section','None of Above'],
+        q:'How to write an IF statement for executing some code if "i" is NOT equal to 5?',
+        options:['if (i <> 5)','(i != 5)','Tif i =! 5 then','if i <> 5'],
         answer: 1
     },
     {
-        q:'What is the correct syntax for referring to an external script called "xxx.js"?',
-        options:['<script name="xxx.js">','<script href="xxx.js">','<script src="xxx.js">','None of Above'],
-        answer: 2
+        q:'What is the correct way to write a JavaScript array?',
+        options:['var colors = (1:"red", 2:"green", 3:"blue")','var colors = ["red", "green", "blue"]','var colors = 1 = ("red"), 2 = ("green"), 3 = ("blue")','var colors = "red", "green", "blue"'],
+        answer: 1
     },
     {
         q:'How do you write "Hello World" in an alert box?',
         options:['msg("Hello World");','alertBox("Hello World");','alert("Hello World");','msgBox("Hello World");'],
         answer: 2
+    },
+    {
+        q:'How do you create a function in JavaScript?',
+        options:['function = myFunction()','function:myFunction()','function === myFunction();','function myFunction()'],
+        answer: 3
+    },
+    {
+        q:'How does a FOR loop start?',
+        options:['for (i = 0; i <= 5; i++)','for (i <= 5; i++)','for i = 1 to 5','for (i = 0; i <= 5)'],
+        answer: 0
+    },
+    {
+        q:'How do you declare a JavaScript variable?',
+        options:['v carName;','variable carName;','var carName;','None'],
+        answer: 2
+    },
+    {
+        q:'Which event occurs when the user clicks on an HTML element?',
+        options:['onchange','onmouseclick','onmouseover','onclick'],
+        answer: 3
+    },
+    {
+        q:'How can you detect the clients browser name?',
+        options:['client.navName ','navigator.appName','browser.name','None'],
+        answer: 1
     },
 ]
