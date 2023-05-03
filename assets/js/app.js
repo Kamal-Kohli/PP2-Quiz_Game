@@ -7,7 +7,7 @@ const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
 
-
+let quiz;
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
@@ -19,7 +19,7 @@ let attempt = 0;
 function setAvailabeQuestions(){
     const totalQuestion = quiz.length;
     for(let i=0; i<totalQuestion; i++){
-        availableQuestions.push(quiz[i])
+        availableQuestions.push(quiz[i]);
     }
 }
 
@@ -39,10 +39,10 @@ function getNewQuestion(){
     availableQuestions.splice(index1,1);
 
     // Set Lenght of options
-    const optionLen = currentQuestion.options.length
+    const optionLen = currentQuestion.options.length;
     // push options to availableOptions Array
     for(let i=0; i<optionLen; i++){
-        availableOptions.push(i)
+        availableOptions.push(i);
     }
     optionContainer.innerHTML = '';
     let animationDelay = 0.15;
@@ -60,11 +60,11 @@ function getNewQuestion(){
         option.style.animationDelay = animationDelay + 's';
         animationDelay = animationDelay + 0.15;
         option.className = "option";
-        optionContainer.appendChild(option)
+        optionContainer.appendChild(option);
         option.setAttribute("onclick","getResult(this)"); 
     }
 
-    questionCounter++
+    questionCounter++;
 }
 
 // Get Result of attempt question
@@ -111,7 +111,7 @@ function answersIndicator(){
 }
 
 function updateAnswerIndicator(markType){
-    answersIndicatorContainer.children[questionCounter-1].classList.add(markType)
+    answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
 }
 
 function next(){
@@ -180,4 +180,4 @@ function  startQuiz(){
 
 window.onload = function(){
     homeBox.querySelector(".total-question").innerHTML = quiz.length;
-}
+};
