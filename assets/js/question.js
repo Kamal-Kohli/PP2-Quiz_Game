@@ -50,4 +50,4 @@ const quiz = [
         options:['client.navName ','navigator.appName','browser.name','None'],
         answer: 1
     },
-]
+];

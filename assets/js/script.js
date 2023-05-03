@@ -6,8 +6,8 @@ const answersIndicatorContainer = document.querySelector(".answers-indicator");
 const homeBox = document.querySelector(".home-box");
 const quizBox = document.querySelector(".quiz-box");
 const resultBox = document.querySelector(".result-box");
+const quiz = [];
 
-let quiz;
 let questionCounter = 0;
 let currentQuestion;
 let availableQuestions = [];
