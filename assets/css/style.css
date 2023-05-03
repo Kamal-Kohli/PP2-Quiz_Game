@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -130,9 +132,9 @@ body {
 }
 
 .quiz-box .question-number{
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
-    color: rgb(80, 80, 81);
+    color: cornflowerblue;
     border-bottom: 1px solid #cccc;
     padding-bottom: 10px;
     line-height: 25px;
