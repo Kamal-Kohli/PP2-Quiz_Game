@@ -93,12 +93,12 @@ function getResult(element){
    unclickableOptions();
 }
 
-// Make all th eoptions unclickable once the user select a option.
+// Make all the options unclickable once the user select a option.
 function unclickableOptions(){
     const optionLen = optionContainer.children.length;
     for(let i=0; i<optionLen; i++){
         optionContainer.children[i].classList.add("already-answered");
-    }
+    } 
 }
 
 function answersIndicator(){

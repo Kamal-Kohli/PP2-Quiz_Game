@@ -171,6 +171,10 @@ body {
     color: #fff;
 }
 
+.quiz-box .option-container .option.already-answered{
+    pointer-events: none;
+}
+
 .quiz-box .btn{
     margin: 15px 0;
 }
