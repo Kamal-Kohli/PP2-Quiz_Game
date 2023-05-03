@@ -138,7 +138,7 @@ body {
     height: 100%;
     width: 100%;
     content: '';
-    background-color: darkgreen;
+    background-color: green;
     z-index: -1;
     animation: slideInLeft .5s ease forwards;
 }
@@ -153,6 +153,21 @@ body {
 }
 
 .quiz-box .option-container .option.correct.correct{
+    color: #fff;
+}
+
+.quiz-box .option-container .option.wrong::before{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: red;
+    z-index: -1;
+    animation: slideInLeft .5s ease forwards;
+}
+.quiz-box .option-container .option.correct.wrong{
     color: #fff;
 }
 
