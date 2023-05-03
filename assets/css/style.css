@@ -13,6 +13,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.title{
+    text-align: center;
+
+}
+
 .custom-box {
     max-width: 700px;
     background: #fff;
@@ -191,6 +196,18 @@ body {
     margin-right: 5px;
     margin-top: 15px;
     display: inline-block;
+}
+.quiz-box .answers-indicator div.correct{
+    background-image: url("../images/correct.png");
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
+}
+.quiz-box .answers-indicator div.wrong{
+    background-image: url("../images/wrong.png");
+    background-size: 100%;
+    background-repeat: none;
+    background-position: center;
 }
 
 .result-box {
