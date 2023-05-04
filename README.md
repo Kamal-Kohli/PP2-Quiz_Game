@@ -43,7 +43,12 @@ We choose night mode color scheme, so user can play quiz smoothly without any ey
 ### User Result or Score:
 ![Result](/assets/images-readme/wfresult.png)
 
-# TECHNOLOGIES USED:
+## Features
+### Existing Features
+
+
+
+# TECHNOLOGIES USED
 ## Programme
 ### 1. HTML
 HTML Validator Testing:
@@ -55,13 +60,18 @@ CSS Validator Testing:
 ![Home Page](/assets/images-readme/css.png)
 - The official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator was used to test the CSS, and no errors were found.
 
-### 1. JavaScript
-The code was passed through [JSHint](https://jshint.com/) for testing, and no errors were found. Additionally, various metrics were returned, including the number of functions, the size of the largest function, and the complexity of the most complex function.
+### 3. JavaScript
+- The code was passed through [JSHint](https://jshint.com/) for testing, and no errors were found. Additionally, various metrics were returned, including the number of functions, the size of the largest function, and the complexity of the most complex function.
 
+### 3. LightHouse Analize
+See result in below image
+![Home Page](/assets/images-readme/lighthouse.png)
+- In addition to these validation tests, the game was also extensively tested by a diverse group of individuals ranging from 4 to 65 years old. All characters were tested, and the name validation function was thoroughly evaluated. Despite the comprehensive testing, no errors or issues were found, leading us to believe that the Tic Tac Toe game for kids is a reliable and functional product.
 
-### Editor
-- Github
-- Gitpod
+## Editor
+ - ### Gitpod: A cloud-based integrated development environment (IDE) that was used for version control and writing code. The Gitpod terminal was utilized to commit changes to Git and push them to GitHub.
+
+ - ### GitHub: A web-based hosting service used for version control and storing the project's code after being pushed from Gitpod.
 
 ### Frameworks, Libraries & Programs Used
 - Google Fonts - for the font families: Righteous & Raleway. San-serif was used as a default font.
