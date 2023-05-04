@@ -9,55 +9,28 @@ Know Your Code is not only an entertaining game but also a valuable educational 
 FOR LIVE PROJECT [CLICK HERE..](https://kamal-kohli.github.io/PP2-Quiz_Game/)
 
 ## USER EXPERIENCE - UX
-+ [SITE FEATURES](#site-features "SITE FEATURES")
-  + [SITE FEATURES](#site-features "SITE FEATURES")
-  + [Site Goal](#site-goal "Site Goal")
-  + [Audience](#audience "Audience")
-  + [Communication](#communication "Communication")
-  + [Current User Goals](#current-user-goals "Current User Goals")
-+ [FEATURES](#features "FEATURES")
-  + [Navigation Bar](#navigation-bar "Navigation Bar")
-  + [Our Slogan](#our-slogan "Our Slogan")
-  + [Our Services](#our-services "Our Services")
-  + [Footer](#footer "Footer")
-  + [About us](#about-us "About us")
-  + [Gallery](#gallery "Gallery")
-  + [Location](#location "Location")
-  + [Sign Up](#sign-up "Sign Up")
-  + [Colour Scheme](#colour-scheme "Colour Scheme")
-  + [Typography](#typography "Typography")
++ [For Users](#for-users "For Users")
++ [Design](#design "Design")
 + [FUTURE FEATURES](#future-features "FUTURE FEATURES")
 + [Testing](#testing "Testing")
-  + [Validator Testing](#validator-testing "Validator Testing")
 + [TECHNOLOGIES USED](#technologies-used "TECHNOLOGIES USED")
-  + [Programme](#programme "Programme")
-  + [Editor](#editor "Editor")
-  + [Frameworks, Libraries & Programs Used](#frameworks-libraries-programs-used "Frameworks, Libraries & Programs Used")
 + [DEPLOYMENT](#deployment "DEPLOYMENT")
 + [CREDITS](#credits "CREDITS")
-  + [Content](#content "Content")
-  + [Media](#media "Media")
 
-## SITE FEATURES
+## For Users
+- This QUIZ is for everyone interested in coding.
+- If you wanna play this quiz you must have basic knowledge of coding.
+- Even if you don't have so you can play as fun, anyhow you will something from here.
+- As a User, you can play this game any your free time anywhere anytime to gain some code information.
+- Quiz is compatible with all kinds of devices.
+- Result will show you your performance score.
+- It is kind of an interesting quiz game, so you can replay again end of the quiz.
 
-### Site Purpose:
-- To reach out to those people with whom we have not yet been touched and who are far from our reach. Through the Site, we can deliver our services to anyone anywhere in the world.
+## Design
 
-### Site Goal:
-- Our goal is to remove mental and physical problems by making our service accessible to as many people as possible. So that every person in the world feels the communication of a new energy in his life.
+The user experience design for the KNOW YOUR CODE QUIZ GAME is optimized for people who are interested in programming or who want it became, with a focus on ease of use and visual appeal. The design features a clean and intuitive layout, with a few contrasting colors that draw the user's attention to important elements. To further enhance the playful experience, a simple font has been chosen to be readable easily.
 
-### Audience:
-- People who give importance to their body nad mental health, who want to get rid of mental problem or physical problem. People in search of peace. Our target are children, men & women with any age.
-
-### Communication:
-- This site has been built on the principle of easy to understand. Its bold  and easy typography and design make it easy to navigate, with buttons to jump from one information to another, giving you all you need with just one click. With the help of photographs, the consumer can better understand all the activities of our programs.
-
-### Current User Goals:
-- Provide our services to everyone everywhere online or onsite.
-
-
-## FEATURES
-
+We use colorscheme that will not effect yu
 ### Navigation Bar: 
 - This is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'About' & 'Sign Up' pages.
 ![Navigation Bar](assets/image-readme/nav-bar-min.png)
