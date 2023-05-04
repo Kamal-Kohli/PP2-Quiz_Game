@@ -30,82 +30,27 @@ FOR LIVE PROJECT [CLICK HERE..](https://kamal-kohli.github.io/PP2-Quiz_Game/)
 
 The user experience design for the KNOW YOUR CODE QUIZ GAME is optimized for people who are interested in programming or who want it became, with a focus on ease of use and visual appeal. The design features a clean and intuitive layout, with a few contrasting colors that draw the user's attention to important elements. To further enhance the playful experience, a simple font has been chosen to be readable easily.
 
-We use colorscheme that will not effect yu
-### Navigation Bar: 
-- This is included across all three pages, and provides people with an easy reference to navigate between the 'Home', 'About' & 'Sign Up' pages.
-![Navigation Bar](assets/image-readme/nav-bar-min.png)
-[Go to site](https://8000-kamalkohli-project1satv-tea8wr192qb.ws-eu93.gitpod.io/index.html)
+We choose night mode color scheme, so user can play quiz smoothly without any eye strain. Simple and easy accessable interference of the quiz so user can access easily. 
 
-### Our Slogan:
-- The slogan given by us is sufficient to tell that for whom and for whom the aim and policy of our organization is. 
-![Hero image and cover text](assets/image-readme/slogan-min.png)
+## Wireframes
 
-### Our Services:
-- The services provided by us are mentioned on the main page, as soon as the user comes to the site, he will understand which service he has to choose. If he wants, he can choose any one, or he can enjoy all the services. 
-![Services ](assets/image-readme/services-min.png)
+### Home Page - Title and Quiz Rules:
+![Home Page](/assets/images-readme/wfrule.png)
 
-### Footer:
-- You can connect with us via social media in the footer below. So that you can easily get the information about all the programs organized by us and in the future.
-![Footer](assets/image-readme/footer.png)
+### Quiz Box:
+![Quiz Page](/assets/images-readme/wfquizbox.png)
 
-### About us:
-- On the main page, we have given some information about ourselves, so that in the very first interaction people get some information about us. The rest of the information has been made available on our About us page.
-![Home page about us](assets/image-readme/main-about.png)
-![About us page](assets/image-readme/about-us-min.png)
-[Go to About us](https://8000-kamalkohli-project1satv-tea8wr192qb.ws-eu93.gitpod.io/about.html)
+### User Result or Score:
+![Result](/assets/images-readme/wfresult.png)
 
-### Gallery:
-- The images provided give an idea to the user, how and for which services they can connect with us for our services. All images provided on the site from free sources, Credit links mention below into credit sections.
-![Galllery](assets/image-readme/gallery-min.png)
+# TECHNOLOGIES USED:
+## Programme
+### 1. HTML5
+HTML Validator Testing:
+![Home Page](/assets/images-readme/wfrule.png)
 
-### Location: 
-- Full width size and sufficient height map provided on the site for easy to located our center. User easily can track your location by google map direction so everyone can reach us easily.
-![Location Map](assets/image-readme/map-min.png)
-
-### Sign Up: 
-- Once again I have kept the design simplistic, repeating the big bold banner in background of sign up form. There is not a lot of content on the page, rather just a form so that user can easily become member with us. Here user have to make an account with some neccessory required informations.
-![Sign Up Form](assets/image-readme/join-us-min.png)
-[Go to Sign Up](https://8000-kamalkohli-project1satv-tea8wr192qb.ws-eu93.gitpod.io/signup.html)
-
-### Colour theme:
-Special care has been taken of the colors here, so that the user can easily use the dark and light modes without straining the eyes. Its gray and light beige color has been chosen to be soothing to your eyes.
-![Colors](assets/image-readme/color.jpeg)
-
-### Typography:
-To make it easier for the user to understand, only two fonts have been used here for writing, "Righteous" for main headings and "Raleway" for paragraphs. Which is available on Google Font's free source, we have given its details in the credit given below. In general, this font makes it easy for you to read the information, so that you can get the complete details of the information given to you.
-
-[Font Righteous](https://fonts.google.com/share?selection.family=Righteous)-
-[Font Raleway](https://fonts.google.com/share?selection.family=Raleway)
-
-
-## FUTURE FEATURES:
- - Service Pages with Pricing
- - Booking slots
- - Online classes portal
- - Personal Trainer at Home
- - Vegetarian food clases and recipes
- - Product Shopping page
- - Online Payment
- - Gallery with more photos.
- - Chat Bot
-
-
-### Validator Testing:
-- HTML files pass through the [W3C validator](https://validator.w3.org/) with no issues found.
-![W3C validator message](assets/image-readme/html.png)
-
-- CSS files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
-![Jigsaw validator message](assets/image-readme/css.png)
-
-- page has an excellent Accessibility rating in Lighthouse
-![Alt text](assets/image-readme/lighthouse-analytics.png)
-
-- Tested the site opens in Opera, Chrome & Safari without issues.
-
-## TECHNOLOGIES USED
-### Programme
-- HTML5
 - CSS3
+- JavaScript
 
 ### Editor
 - Github
