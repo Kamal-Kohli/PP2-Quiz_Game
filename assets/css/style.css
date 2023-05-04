@@ -294,4 +294,16 @@ body {
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    .btn{
+        margin-bottom: 5px;
+    }
+}
+
+.playagain{
+    background-color: green;
+}
+
+.exit{
+    background-color: red;
 }
