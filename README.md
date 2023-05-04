@@ -1,11 +1,14 @@
 # KNOW YOUR CODE - QUIZ GAME
 KNOW YOUR CODE - prividing you an interesting code quiz game for beginners and professionals. In this game have to answer 10 interesting questions and at finish game you will get your score. This game is very informative for nay coders, it will revise your code knowledge. Hope you will enjoy this QUIZ GAME.
 
+Know Your Code is not only an entertaining game but also a valuable educational tool. It teach you some basic rules of coding in a fun, interesting way. Whether you're a beginner or professional this game will educate and revise your coding. It's also help you to improve your memory skills. We keep here very simple feature and layout so that anyone can easily access/ play this quiz.
+
+
 ![Site view across device](/assets/images-readme/devices-layout.png)
 
-FOR LIVE SITE [CLICK HERE..](https://kamal-kohli.github.io/PP2-Quiz_Game/)
+FOR LIVE PROJECT [CLICK HERE..](https://kamal-kohli.github.io/PP2-Quiz_Game/)
 
-## INDEX
+## USER EXPERIENCE - UX
 + [SITE FEATURES](#site-features "SITE FEATURES")
   + [SITE FEATURES](#site-features "SITE FEATURES")
   + [Site Goal](#site-goal "Site Goal")
