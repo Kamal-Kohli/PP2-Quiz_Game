@@ -45,12 +45,19 @@ We choose night mode color scheme, so user can play quiz smoothly without any ey
 
 # TECHNOLOGIES USED:
 ## Programme
-### 1. HTML5
+### 1. HTML
 HTML Validator Testing:
-![Home Page](/assets/images-readme/wfrule.png)
+![Home Page](/assets/images-readme/html.png)
+- The official [W3C](https://validator.w3.org/) validator was used to test the HTML, and no errors or warnings were returned.
 
-- CSS3
-- JavaScript
+### 2. CSS
+CSS Validator Testing:
+![Home Page](/assets/images-readme/css.png)
+- The official [Jigsaw](https://jigsaw.w3.org/css-validator/) validator was used to test the CSS, and no errors were found.
+
+### 1. JavaScript
+The code was passed through [JSHint](https://jshint.com/) for testing, and no errors were found. Additionally, various metrics were returned, including the number of functions, the size of the largest function, and the complexity of the most complex function.
+
 
 ### Editor
 - Github
