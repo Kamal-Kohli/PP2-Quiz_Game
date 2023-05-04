@@ -102,26 +102,31 @@ No know bugs.
 
 ## DEPLOYMENT
 To deploy the site on Github Pages, the following steps were taken:
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-- The live link can be found [HERE...](https://kamal-kohli.github.io/Project-1-Satvik-/)
+1. Navigated to the Settings tab of the Github repository
+2. Navigated to the Pages option on the left-hand side
+3. Selected the Master Branch as the source from the dropdown list in the source section
+4. The page was automatically updated, providing a link with the latest deployment information.
+5. This process ensured the seamless deployment of the site on Github Pages for public access.
 
-## CREDITS
+[Quiz Repository](github.com/Kamal-Kohli/PP2-Quiz_Game)
 
-### Content
-As my knowledge of implementation is limited at this point in my learning, the initial set up & style was set loosely on the 'Love Running' & 'Coffee Shop' walk-through project. From there, I took inspiration for the design of the navigation bar, along with the display of the social links in the footer element.
+## Credits
+ Thank you, Code Institute and mentor, for all your support and guidance!
+Sometimes I stuck somewhere so slack community always there for me, also Thanks to them. As well as some third part support like: W3schools
 
-The styling of the form element in 'Love Running' & 'Coffee Shop' was used as a starting point for my form to help remember all categories that needed to be addressed.
+Also thanks to Coders on [Youtube](youtube.com)
 
--I took some style referance from 'w3schools' online free source for Navigation bar and footer backgroung color.
-[Referance](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
+The following websites have inspired me and helped me solve some issues:
+- https://www.w3schools.com/
+- https://stackoverflow.com/
+- https://developer.mozilla.org/
 
--For [Image side by side](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) also referance taken from 'w3schools' for the landing page 
+For Icons [Fontawesome](https://fontawesome.com/)
+          [Flaticon](https://www.flaticon.com/)
 
-Some support was provided by my fellow student through our 'SLACK community'. They were also immeasurably helpful in explaining positioning containers in a way that I was able to grasp. I also got suggestion for device layout & how to write me readme file in Gitpod
+Fonts is taken from [Google Fonts](https://fonts.google.com/)
 
-### Media
+
 
 
   
