@@ -149,7 +149,7 @@ function resetQuiz(){
     attempt = 0;
 }
 
-function tryAgainQuiz(){
+function playAgain(){
     // Hide result box
     resultBox.classList.add("hide");
     // Show Quiz box
@@ -158,7 +158,7 @@ function tryAgainQuiz(){
     startQuiz();
 }
 
-function goToHome(){
+function Home(){
     // Hide result box
     resultBox.classList.add("hide");
     // Show home box
