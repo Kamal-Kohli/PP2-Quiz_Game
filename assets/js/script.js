@@ -101,6 +101,7 @@ function unclickableOptions(){
     } 
 }
 
+// Mention options result with CORRECT and WRONG png
 function answersIndicator(){
     answersIndicatorContainer.innerHTML = '';
     const totalQuestion = quiz.length;
@@ -113,7 +114,7 @@ function answersIndicator(){
 function updateAnswerIndicator(markType){
     answersIndicatorContainer.children[questionCounter-1].classList.add(markType);
 }
-
+// Take to you for the next question
 function next(){
     if(questionCounter === quiz.length){
         quizOver();
@@ -180,4 +181,4 @@ function  startQuiz(){
 
 window.onload = function(){
     homeBox.querySelector(".total-question").innerHTML = quiz.length;
-};
+}
