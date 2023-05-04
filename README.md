@@ -46,6 +46,30 @@ We choose night mode color scheme, so user can play quiz smoothly without any ey
 ## Features
 ### Existing Features
 
+### Logo:
+The Quiz page features a clean logo prominently displaying the name "🅺🅽🅾🆆 🆈🅾🆄🆁 🅲🅾🅳🅴" with the fancy font at the top. The logo design is visually appealing and provides an appropriate introduction to the Quiz. A sample image of the logo is shown below:
+![Result](/assets/images-readme/KYC.png)
+
+### Home Page/Quiz Rules:
+Know Your Code welcomes the user with Quiz rules, where any user to acknowledge how to play this quiz. After the reading all rules user can start quiz with start button at the below.
+![Result](/assets/images-readme/rules.jpeg)
+
+### Quiz Area:
+In the quiz area, the user will get a question with 4 options. below options, we mention a next button, so that after choosing an option user can click on the button and move to the next question of the quiz game.
+![Result](/assets/images-readme/quiz.jpeg)
+
+### Correct Answer:
+As we mention in the picture below, when the user attempt a correct answer to the question, automatic option background will turn green as well as a tick signal will be displayed at the bottom of the next button.
+![Result](/assets/images-readme/c-a.jpeg)
+
+### Wrong Answer:
+As you see when the user will attempt a wrong question, the option background will turn red, and as well as the correct answer will display t the user. But the user will not get any number so at the bottom of the next button, a cross will display.
+![Result](/assets/images-readme/w-a.jpeg)
+
+### Result:
+After completion of the quiz, the user will get his score. How many questions user attempt, correct answer, wrong answer, and total score?
+After the user will have a choice to play again or exit the quiz.
+![Result](/assets/images-readme/score.jpeg)
 
 
 # TECHNOLOGIES USED
@@ -73,16 +97,11 @@ See result in below image
 
  - ### GitHub: A web-based hosting service used for version control and storing the project's code after being pushed from Gitpod.
 
-### Frameworks, Libraries & Programs Used
-- Google Fonts - for the font families: Righteous & Raleway. San-serif was used as a default font.
-- Font Awesome - to add icons to the social links in the footer element.
-- GitPod - to creat my html files & styling sheet before pushing the project to Github.
-- GitHub - to store my repository for submission.
-- Am I Responsive? - to ensure the project looked good across all devices.
-- Favicon - to provide the code & image for the icon in the tab bar.
+## Bugs
+No know bugs.
 
 ## DEPLOYMENT
-The site was deployed to GitHub pages. The steps to deploy are as follows:
+To deploy the site on Github Pages, the following steps were taken:
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
@@ -103,24 +122,6 @@ The styling of the form element in 'Love Running' & 'Coffee Shop' was used as a 
 Some support was provided by my fellow student through our 'SLACK community'. They were also immeasurably helpful in explaining positioning containers in a way that I was able to grasp. I also got suggestion for device layout & how to write me readme file in Gitpod
 
 ### Media
-- Hero image is called ["Wommen perfoming Yoga"](https://www.pexels.com/photo/2-women-sitting-on-galaxy-design-yoga-mat-3822226/) by Elina Fairytale
 
-The following images and there links for HOME PAGE:
-- [woman performing yoga](https://www.pexels.com/photo/woman-in-scorpion-pose-3822142/)
-- [man doing meditation](https://www.pexels.com/photo/a-man-in-white-thobe-meditating-on-the-mountain-top-4340795/)
-- [Healthy food](https://www.pexels.com/photo/flat-lay-photography-of-vegetable-salad-on-plate-1640777/)
-
-The following images and there links for ABOUT US PAGE:
-- [Upside down yoga class](https://www.pexels.com/photo/woman-in-scorpion-pose-3822142/)
-- [Straching with autism girl](https://www.pexels.com/photo/photo-of-women-stretching-together-4056726/)
-- [Thee female students and yoga instructor](https://www.pexels.com/photo/women-doing-yoga-3822668/)
-- [Woman doing mediation on the mountain](https://www.pexels.com/photo/woman-in-black-sports-bra-and-black-pants-sitting-on-rock-5184327/)
-- [A group performing rope yoga](https://www.pexels.com/photo/group-of-women-doing-yoga-swing-6582869/)
-- [Woman doing peacock pose in yoga](https://www.pexels.com/photo/a-woman-in-brown-leggings-balancing-her-body-on-a-yoga-mat-4534867/)
-- [A group yoga practice](https://www.pexels.com/photo/people-doing-yoga-in-the-studio-8436589/)
-- [A group meditation](https://www.pexels.com/photo/group-of-women-doing-yoga-exercise-8436719/)
-
-Fevicon:
-- [Yoga icon](https://www.flaticon.com/free-icon/yoga-posture_55316)
 
   
