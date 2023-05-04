@@ -48,7 +48,7 @@ We choose night mode color scheme, so user can play quiz smoothly without any ey
 
 ### Logo:
 The Quiz page features a clean logo prominently displaying the name "🅺🅽🅾🆆 🆈🅾🆄🆁 🅲🅾🅳🅴" with the fancy font at the top. The logo design is visually appealing and provides an appropriate introduction to the Quiz. A sample image of the logo is shown below:
-![Result](/assets/images-readme/KYC.png)
+![Result](/assets/images-readme/kyc.png)
 
 ### Home Page/Quiz Rules:
 Know Your Code welcomes the user with Quiz rules, where any user to acknowledge how to play this quiz. After the reading all rules user can start quiz with start button at the below.

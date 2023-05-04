@@ -178,7 +178,6 @@ function  startQuiz(){
 
 }
 
-
 window.onload = function(){
     homeBox.querySelector(".total-question").innerHTML = quiz.length;
-}
+};
