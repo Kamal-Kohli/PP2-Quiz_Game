@@ -245,13 +245,11 @@ body {
 .quiz-box .answers-indicator div.correct{
     background-image: url("../images/correct.png");
     background-size: 100%;
-    background-repeat: none;
     background-position: center;
 }
 .quiz-box .answers-indicator div.wrong{
     background-image: url("../images/wrong.png");
     background-size: 100%;
-    background-repeat: none;
     background-position: center;
 }
 
