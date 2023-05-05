@@ -296,6 +296,15 @@ body {
     .btn{
         margin-bottom: 5px;
     }
+
+}
+
+/* For medium screen sizes from 500px wide and down */
+@media screen and (max-width: 500px) {
+
+    .quiz-box .option-container .option{
+        font-size: 13px;
+    }
 }
 
 .playagain{
