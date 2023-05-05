@@ -11,11 +11,14 @@ FOR LIVE PROJECT [CLICK HERE..](https://kamal-kohli.github.io/PP2-Quiz_Game/)
 ## USER EXPERIENCE - UX
 + [For Users](#for-users "For Users")
 + [Design](#design "Design")
-+ [FUTURE FEATURES](#future-features "FUTURE FEATURES")
++ [Wireframes](#wireframes "Wireframes")
++ [Features](#features "Features")
++ [Technologies used](#technologies-used "Technologies used")
++ [Editor](#editor "Editor")
++ [Unfixed bugs](#unfixed-bugs "Unfixed bugs")
 + [Testing](#testing "Testing")
-+ [TECHNOLOGIES USED](#technologies-used "TECHNOLOGIES USED")
-+ [DEPLOYMENT](#deployment "DEPLOYMENT")
-+ [CREDITS](#credits "CREDITS")
++ [Deployment](#deployment "Deployment")
++ [Credits](#credits "Credits")
 
 ## For Users
 - This QUIZ is for everyone interested in coding.
@@ -72,7 +75,7 @@ After the user will have a choice to play again or exit the quiz.
 ![Result](/assets/images-readme/score.jpeg)
 
 
-# TECHNOLOGIES USED
+# Technologies used
 ## Programme
 ### 1. HTML
 HTML Validator Testing:
@@ -97,10 +100,10 @@ See result in below image
 
  - ### GitHub: A web-based hosting service used for version control and storing the project's code after being pushed from Gitpod.
 
-## Bugs
-No know bugs.
+## Unfixed bugs
+No unfixed bugs
 
-## DEPLOYMENT
+## Deployment
 To deploy the site on Github Pages, the following steps were taken:
 1. Navigated to the Settings tab of the Github repository
 2. Navigated to the Pages option on the left-hand side
@@ -109,6 +112,12 @@ To deploy the site on Github Pages, the following steps were taken:
 5. This process ensured the seamless deployment of the site on Github Pages for public access.
 
 [Quiz Repository](github.com/Kamal-Kohli/PP2-Quiz_Game)
+
+## Testing
+- Some users played this quiz and all are satisfied with this.
+- Chrome: Quiz running smoothly without any error.
+- Firefox: Quiz running smoothly without any error.
+- Safari: Quiz running smoothly without any error.
 
 ## Credits
  Thank you, Code Institute and mentor, for all your support and guidance!
