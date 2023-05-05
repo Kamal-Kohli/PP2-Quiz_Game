@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *{
     box-sizing: border-box;
@@ -14,7 +14,7 @@ body {
     font-weight: 400;
     font-family: Lato, sans-serif;
 }
-
+/* Logo and header of the game */
 .container{
     text-align: center;
     width: 100%;
@@ -22,11 +22,12 @@ body {
 
 .container span{
     margin-top: 20px;
-    font-family: Rubik Pixels, sans-serif;
+    font-family: Lato, sans-serif;
     text-transform: uppercase;
     display: block;
 }
 
+/* Header Text */
 .text1{
     color: rgb(255, 249, 127);
     font-size: 60px;
@@ -42,7 +43,7 @@ body {
     font-size: 40px;
     color: rgb(255, 249, 127);
 }
-  
+ /* Animation if the header/logo */ 
 @keyframes text {
     0%{
       color: black;
@@ -54,28 +55,19 @@ body {
       letter-spacing: 8px;
     }
 }
-  
+
+/* Quiz rules box */
 .home-box{
     top: 100px;
 }
 
+/* Custom box style of Quiz game */
 .custom-box {
     max-width: 800px;
     background: #fff;
     margin: 40px auto;
     padding: 30px;
     border-radius: 5px;
-}
-
-@keyframes fadeInRight{
-    0%{
-        transform: translateX(40px);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0px);
-        opacity: 1;
-    }
 }
 
 .custom-box::before,
@@ -88,6 +80,8 @@ body {
 .custom-box.hide {
     display: none;
 }
+
+/* Quiz rules text */
 .home-box h3{
     font-size: 30px;
     font-weight: 500;
@@ -115,6 +109,7 @@ body {
     margin-top: 30px;
 }
 
+/* Quiz Buttons */
 .btn{
     padding: 15px 45px;
     border: none;
@@ -127,6 +122,7 @@ body {
     cursor: pointer;
 }
 
+
 .quiz-box .question-number,
 .quiz-box .question-text,
 .quiz-box .option-container,
@@ -136,6 +132,7 @@ body {
     float: left;
 }
 
+/* Quiz Questions */
 .quiz-box .question-number{
     font-size: 30px;
     font-weight: 600;
@@ -155,7 +152,7 @@ body {
     margin: 0;
     line-height: 25px;
 }
-
+/* Quiz Options*/
 .quiz-box .option-container .option{
     background-color: #cccc;
     font-size: 16px;
@@ -171,7 +168,7 @@ body {
     animation: fadeIn 0.3s ease forwards;
     
 }
-
+/* Options Animaton effect */
 @keyframes fadeIn{
     0%{
         opacity: 0;
@@ -181,6 +178,7 @@ body {
     }
 }
 
+/* Style for correct and wrong options */
 .quiz-box .option-container .option.correct::before{
     position: absolute;
     left: 0;
@@ -193,6 +191,7 @@ body {
     animation: slideInLeft .5s ease forwards;
 }
 
+/* Options background color slide style */
 @keyframes slideInLeft{
     0%{
         transform: translateX(-100%);
@@ -201,6 +200,7 @@ body {
         transform: translateX(0%);
     }
 }
+
 
 .quiz-box .option-container .option.correct.correct{
     color: #fff;
@@ -242,6 +242,8 @@ body {
     margin-top: 15px;
     display: inline-block;
 }
+
+/* png image diplay user options result */
 .quiz-box .answers-indicator div.correct{
     background-image: url("../images/correct.png");
     background-size: 100%;
@@ -253,6 +255,7 @@ body {
     background-position: center;
 }
 
+/* Result box container */
 .result-box {
     text-align: center;
 }
@@ -265,13 +268,14 @@ body {
     color: cornflowerblue;
     line-height: 40px;
 }
-
+/* Result grid */
 .result-box table{
     width: 100%;
     margin: 30px 0;
     border-collapse: collapse;
 }
 
+/* Reult text */
 .result-box table td{
     border: 1px solid #cccc;
     font-size: 18px;
@@ -307,6 +311,7 @@ body {
     }
 }
 
+/* Button on result container */
 .playagain{
     background-color: green;
 }

@@ -2,19 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- Descriptions of the game -->
     <meta name="description" content="Basic Code Quiz game for beginners">
+    <!-- Keywords -->
     <meta name="keywords" content="HTML, CSS, JavaScript, JavaScriptGame, CodeQuiz">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Quiz K-Y-C</title>
 </head>
 <body>
+    <!-- Header and Logo -->
     <div class="container">
         <span class="text1">🅺🅽🅾🆆 🆈🅾🆄🆁 🅲🅾🅳🅴</span>
         <span class="text2">🆀🆄🅸🆉 🅶🅰🅼🅴</span>
     </div>
-
+    <!-- Rules box container -->
     <div class="home-box custom-box">
         <h3>Quiz Rules:<span><i class="fa-solid fa-comment-exclamation"></i></span></h3>
         <p>1. User have to attempt 10 questions.</p>
@@ -24,6 +28,7 @@
         <p>5. Only after the game is over, you can either play it again, or you can exit the quiz.</p>
         <button class="btn" type="button" onclick="startQuiz()"> Start Quiz</button>
     </div>
+    <!-- Quiz and options box -->
     <div class="quiz-box custom-box hide">
         <div class="question-number"></div>
         <div class="question-text"></div>
@@ -33,38 +38,47 @@
         </div>
         <div class="answers-indicator"></div>
     </div>
+
+    <!-- Result Bxox -->
     <div class="result-box custom-box hide">
         <h1>Quiz Result <span><i class="fa-solid fa-square-poll-horizontal"></i></span></h1>
         <table>
+            <!-- Total questions -->
             <tr>
                 <td>Total Questions</td>
                 <td><span class="total-question"></span></td>
             </tr>
+            <!-- Attempt questions -->
             <tr>
                 <td>Attempt</td>
                 <td><span class="total-attempt"></span></td>
             </tr>
             <tr>
+                <!-- correct questions -->
                 <td>Correct</td>
                 <td><span class="total-correct"></span></td>
             </tr>
+            <!-- wrong questions -->
             <tr>
                 <td>Wrong</td>
                 <td><span class="total-wrong"></span></td>
             </tr>
+            <!-- percentage of attempted questions -->
             <tr>
                 <td>Percentage</td>
                 <td><span class="percentage"></span></td>
             </tr>
+            <!-- User total score -->
             <tr>
                 <td>Total Score</td>
                 <td><span class="total-score"></span></td>
             </tr>
         </table>
+        <!-- Buttons on result box -->
         <button class="btn playagain" onclick="playAgain()" type="button">Try Again</button>
         <button class="btn exit" onclick="Home()" type="button">Exit Quiz</button>
     </div>
-    
+    <!-- Script files -->
     <script src="assets/js/question.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/c26e6eb8ee.js" crossorigin="anonymous"></script>
